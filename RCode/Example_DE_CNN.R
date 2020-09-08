@@ -4,9 +4,9 @@ library(keras)
 # Load gtool library to combine rows with different lengths (smartbind())
 library(gtools)
 # Set working directory. The data should be ready in this path
-setwd("D:/Differential Evolution/")
+setwd("~/")
 # Load dataset into R environment
-load("DATA.RData")
+load("Genotype.RData")
 # Split dataset into training and validation sets. 
 # valid_index include indexes for validation set
 index <- valid_index[[1]]
@@ -643,7 +643,7 @@ for(i in 1:nrow(evolve_pop))
 
 stats_dl <- cbind(mean_fit,sd_fit)
 rownames(stats_dl) <- paste("HP",1:nrow(evolve_pop)) 
-save(stats_dl,corr_track,file = "Rep_TRN/Real_Repeat_Stats.RData")
+save(stats_dl,corr_track,file = "Real_Repeat_Stats.RData")
 
 
 
