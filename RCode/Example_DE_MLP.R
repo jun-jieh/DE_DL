@@ -8,9 +8,9 @@ library(ggplot2)
 # Load the package to find medoid
 library(cluster)
 # Set working directory. The data should be ready in this path
-setwd("D:/Differential Evolution/")
+setwd("~/")
 # Load dataset into R environment
-load("PIGDATA_Real.RData")
+load("Genotype.RData")
 # Split dataset into training and validation sets. 
 # valid_index include indexes for validation set
 index <- valid_index[[1]]
@@ -779,7 +779,7 @@ for(i in 1:nrow(evolve_pop))
 
 stats_dl <- cbind(mean_fit,sd_fit)
 rownames(stats_dl) <- paste("HP",1:nrow(evolve_pop)) 
-save(stats_dl,corr_track,file = "Rep_TRN/Real_Repeat_Stats.RData")
+save(stats_dl,corr_track,file = "Real_Repeat_Stats.RData")
 
 
 ###### 12. Model selection from the evolved population ######
