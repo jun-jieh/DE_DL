@@ -57,6 +57,16 @@ Given an optimized population (composed of 50 solutions), each individual in the
 
 ![](https://github.com/jun-jieh/DE_DL/blob/master/Figures/Medoid.png)
 
+## R packages used in the code
+
+* [keras](https://keras.rstudio.com/) and [TensorFlow](https://tensorflow.rstudio.com/) (Keras will load TensorFlow by default)
+
+* [gtools](https://cran.r-project.org/web/packages/gtools/index.html)
+
+* [ggplot2](https://ggplot2.tidyverse.org/)
+
+* [cluster](https://cran.r-project.org/web/packages/cluster/index.html)
+
 ## Code
 
 * R code can be found in the __RCode__ folder
