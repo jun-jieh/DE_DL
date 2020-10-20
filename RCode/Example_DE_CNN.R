@@ -3,13 +3,20 @@
 library(keras)
 # Load gtool library to combine rows with different lengths (smartbind())
 library(gtools)
+# Load ggplot2 to generate plots
+library(ggplot2)
+# Load cluster library to compute the medoid
+library(cluster)
 # Set working directory. The data should be ready in this path
 setwd("~/")
 # Load dataset into R environment
 load("Genotype.RData")
-# Split dataset into training and validation sets. 
-# valid_index include indexes for validation set
-index <- valid_index[[1]]
+# Load the response variable
+load("Adj_ph.RData")
+# Split dataset into training and validation sets. index will be used for training set.
+# For instance, here the first 728 records will be used for training. 
+# It's up to the user to decide the training data
+index <- 1:728
 # Load the genotype matrix
 geno <- geno[index,]
 # Define the input shape of MLP
