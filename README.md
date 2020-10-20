@@ -3,7 +3,7 @@
 
 __Junjie Han, Cedric Gondro, Kenneth Reid & Juan P. Steibel__
 
-If you find this resource helpful, please cite:
+If you find this resource helpful, please cite.
 
 
 This repository explains multilayer perceptron (MLP) and convolutional neural network (CNN), and shows the code to implement differential evolution (DE) on top of MLPs and CNNs.
