@@ -18,11 +18,11 @@ load("Adj_ph.RData")
 # It's up to the user to decide the training data
 index <- 1:728
 # Load the genotype matrix. 'geno' matrix is for training dataset
-geno <- geno[-index,]
+geno <- geno[index,]
 # Define the input shape of MLP regarding the number of SNP markers
 shape <- ncol(geno)
 # Load the phenotypes for training set
-y <- y[-index]
+y <- y[index]
 
 
 ##### 2. Define hyperparameters #####
