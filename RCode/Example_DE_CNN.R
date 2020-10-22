@@ -423,7 +423,6 @@ for (i in 1:popsize)
 }
 
 initial_info <- info_DL
-fit <- info_DL
 save(initial_info,pop,file="initial_info_Real_CNN.RData")
 
 event_log <- as.data.frame(matrix(data = NA,nrow = numgen,ncol = 36))
