@@ -508,7 +508,6 @@ for (i in 1:popsize)
 
 # Save the information for initial population
 initial_info <- info_DL
-fit <- info_DL
 save(initial_info,pop,file="initial_info_Real_MLP.RData")
 
 # Create a event log to moniter every single iteration for later analyses
