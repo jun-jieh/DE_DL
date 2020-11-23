@@ -605,7 +605,7 @@ for (i in 1:numgen)
   {
     # if there is an error, there will be an -1 for the fitness
     # and the event log will show -1 as its fitness
-    fit[index[1]] <- -1
+    fitchal <- -1
     k_clear_session()
     gc(reset=TRUE)
     next
