@@ -1,4 +1,6 @@
 #### 1.Library, file, and object ####
+# Turn off the warning. If you want to turn warnings back on, use options(warn=0)
+options(warn=-1)
 # Load Keras library for Deep Learning
 library(keras)
 # Load gtool library to combine rows with different lengths (smartbind())
