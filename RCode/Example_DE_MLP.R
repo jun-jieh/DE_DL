@@ -62,7 +62,7 @@ count=a+b+c+d
 
 ###### 3. Initialize a random population ######
 # 5 candidate solution in the population.
-popsize=5 
+popsize=50 
 # Count unique markers of hyperparameters. The 3 at the end represents L2, dropout and batch proportion
 varsize <- a+b+c+d+f+3   
 # Randomly sample values from (0,1)
@@ -670,7 +670,6 @@ for (i in 1:numgen)
 
 
 ###### 10. Visualize results ######
-setwd("~/")
 # Results from first DE run
 load("DE_Real_MLP.RData")
 # Mean fitness of the population over generations
