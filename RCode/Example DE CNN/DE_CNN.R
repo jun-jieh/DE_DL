@@ -31,7 +31,6 @@ geno <- array_reshape(geno, list(nrow(geno), ncol(geno), 1))
 # Load the phenotypical values
 y <- y[index]
 
-
 ##################################
 ##### Define hyperparameters #####
 ##################################
