@@ -59,7 +59,7 @@ Given an optimized population (composed of 50 solutions), each individual in the
 
 ## R packages used in the code
 
-* [keras](https://keras.rstudio.com/) and [TensorFlow](https://tensorflow.rstudio.com/) (Keras will load TensorFlow by default)
+* [keras](https://keras.rstudio.com/) and [tensorflow](https://tensorflow.rstudio.com/) (Keras will load TensorFlow by default)
 
 * [gtools](https://cran.r-project.org/web/packages/gtools/index.html)
 
