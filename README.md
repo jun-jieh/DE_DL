@@ -71,7 +71,7 @@ Given an optimized population (composed of 50 solutions), each individual in the
 
 * R code can be found in the __RCode__ folder
 
-* __Example_DE_MLP__ is for the DE on top of MLPs and __Example_DE_CNN__ is for the DE on top of CNNs
+* __Example DE MLP__ is for the DE on top of MLPs and __Example DE CNN__ is for the DE on top of CNNs
 
 * Notice there are multiple functions included in the code:
 
