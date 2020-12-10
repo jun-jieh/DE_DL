@@ -3,7 +3,7 @@ library(keras)
 
 finalModel="finalModel"
 # Set working directory. The data should be ready in this path
-setwd("D:/DE_DL/Cedric's code/")
+setwd("~/")
 geno=readRDS("genotypes.rds")
 geno=t(geno)
 pheno=read.table("SimPheno100QTL.txt",header=T,sep="\t")
