@@ -16,6 +16,8 @@ This repository explains multilayer perceptron (MLP) and convolutional neural ne
 * [Workflow](#Workflow)
 * [Model_selection](#Model_selection)
 * [Code](#Code)
+* [Dataset](#Dataset)
+* [Demo](#Demo)
 
 ## Software
 * All experiments are implemented in [R](https://cloud.r-project.org/) (version 3.6.1)
@@ -97,3 +99,8 @@ Given an optimized population (composed of 50 solutions), each individual in the
 ## Dateset
 
 To find the dataset used in this study, please refer to this repository: https://github.com/jun-jieh/RealPigData
+
+## Demo
+
+Some users may choose to use Keras with its CPU version. If that is the case, it will cost considerable amount time to implement the DE on top of DL with the pig dataset provided. Therefore, we developed a simplified version of the DE code and a demo dataset with a much smaller problem size to illustrate the DE on top of DL. The demo code and dataset are both included in the __Demo__ folder. However, the full program for implementing the exact same procedure mentioned in the paper can still be found in __Code__ folder.
+
