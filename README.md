@@ -102,5 +102,5 @@ To find the dataset used in this study, please refer to this repository: https:/
 
 ## Demo
 
-Some users may choose to use Keras with its CPU version. If that is the case, it will cost considerable amount of time to implement the DE on top of DL with the pig dataset provided. Therefore, we developed a simplified version of the DE code and a demo dataset with a much smaller problem size to illustrate the DE on top of DL. The demo code and dataset are both included in the __Demo__ folder. However, the full program for implementing the exact same procedure mentioned in the paper can still be found in the __Code__ folder.
+Some users may choose to use Keras with its CPU version. If that is the case, it will cost considerable amount of time to implement the DE on top of DL with the pig dataset provided. Therefore, we developed a simplified version of the DE code and a demo dataset with a much smaller problem size to illustrate the DE on top of DL. The demo codem dataset, and the toy examples (one for MLP and one for CNN) are included in the __Demo__ folder. However, the full program for implementing the exact same procedure mentioned in the paper can still be found in the __Code__ folder.
 
