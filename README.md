@@ -5,7 +5,7 @@ __Junjie Han, Cedric Gondro, Kenneth Reid & Juan P. Steibel__
 
 If you find this resource helpful, please cite:
 
-[Junjie Han, Cedric Gondro, Kenneth Reid, Juan P Steibel. 2021. Heuristic hyperparameter optimization of deep learning models for genomic prediction. G3 Genes|Genomes|Genetics](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab032/6129776/)
+[J Han, C Gondro, K Reid, JP Steibel. 2021. Heuristic hyperparameter optimization of deep learning models for genomic prediction. G3 Genes|Genomes|Genetics](https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkab032/6129776/)
 
 
 This repository explains multilayer perceptron (MLP) and convolutional neural network (CNN), and shows the code to implement differential evolution (DE) on top of MLPs and CNNs.
