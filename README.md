@@ -102,7 +102,7 @@ Some users may choose to use Keras with its CPU version. If that is the case, it
 `max_Euc_dist` A function for evaluating and selecting best model given stats of repeated training
 
 
-## Dateset
+## Dataset
 
 To find the dataset used in this study, please refer to this repository: https://github.com/jun-jieh/RealPigData
 
